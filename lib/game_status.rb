@@ -16,3 +16,7 @@ board.none? do |full_board|
   full_board == " "
   end
 end
+def draw?(board)
+  won?(board) == false && full?(board) == true
+  end
+end
