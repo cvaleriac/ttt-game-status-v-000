@@ -15,4 +15,3 @@ def full?(board)
 board.none? do |full_board| && board.none? do |incomplete_board|
   end
 end
-end
